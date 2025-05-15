@@ -1,0 +1,9 @@
+---
+applications:
+- name: front-end-container
+  buildpacks:
+    - python_buildpack
+  memory: 256M
+  random-route: true
+  env:
+    BACKEND_URL: http://back-end-container.apps.internal:8080
