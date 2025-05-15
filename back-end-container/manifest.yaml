@@ -4,6 +4,5 @@ applications:
   buildpacks:
     - python_buildpack
   memory: 256M
-  no-route: true
   routes:
     - route: back-end-container.apps.internal
